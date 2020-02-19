@@ -1,0 +1,54 @@
+// Place all the styles related to the Portfolio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.banner2 {
+  background-image: url("/assets/laptop.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  width: 100%;
+}
+
+.card {
+  border: none;
+
+}
+.card-img1{
+  background-image: url("/assets/shadowme.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  filter: grayscale(100%);
+
+}
+
+.card-img2 {
+  background-image: url("/assets/newequityrealty.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  filter: grayscale(100%);
+
+}
+
+.card-img1:hover {
+  filter: grayscale(0%);
+}
+.card-img2:hover {
+  filter: grayscale(0%);
+}
+
+.row {
+  padding-top: 50px;
+}
+
+.card-content h2{
+  font-size: 20px;
+  color: #1168FC;
+}
+
+.card-content p{
+  max-height: 300px;
+  // color: #7D07A5;
+}
