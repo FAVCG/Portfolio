@@ -1,0 +1,138 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+//when you put the background-image in the body it will take full screen width
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?cs=srgb&dl=office-working-app-computer-97077.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  width: 100%;
+
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* Main */
+.main {
+  color: #fff;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.main p {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: auto 100%;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+
+// home page
+// header
+.name h1{
+    font-size: 18px;
+    line-height: 100px;
+    height: 100px;
+    margin: 0;
+    text-align: right;
+}
+.row {
+  justify-content: space-between;
+}
+.view_btn {
+  background-color: #202020;
+  // rgba(0,0,0,0.8)
+  border-color: #202020;
+  color: white !important;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-left: 44%;
+  margin-top: 20px;
+
+}
+.view_btn a {
+  color: #7D07A5;
+}
+
+.view_btn a:hover {
+  color: #1168FC;
+  text-decoration: none;
+
+}
+// section
+.banner h2 {
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding-top: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  display: flex;
+  padding: 20px;
+}
+
+.menu a:hover {
+  color: black;
+}
+
+
+
+// footer
+
+.github {
+  background-image: url("/assets/gh.png");
+}
+
+.linked_in {
+  background-image: url("/assets/li.png");
+}
+
+.social_links li a {
+    display: block;
+    height: 64px;
+    width: 64px;
+}
+
+.social_links{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.p-text p {
+  text-align: center;
+    font-size: 20px;
+    padding-left: 46px;
+    margin-bottom: 0px;
+}
