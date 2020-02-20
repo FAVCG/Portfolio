@@ -1,0 +1,99 @@
+// Place all the styles related to the Contact controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.b-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 620px;
+  width: 100%;
+  background-position: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+form {
+    background-color: black;
+    opacity: 0.7;
+    height: 400px;
+    width: 500px;
+
+}
+
+.col-md-7 {
+  padding-left: 100px;
+
+}
+
+.form-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+
+}
+
+.btn-primary {
+    color: white;
+    background-color: #7D07A5 !important;
+    border-color: #7D07A5 !important;
+    width: 100% !important;
+    margin-top: 20px;
+    padding: 10px !important;
+}
+
+.button-align {
+  margin: 0 auto !important;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.form-control {
+  background-color: black;
+  color: white;
+  border: 1px solid white !important;
+}
+
+.two-sections {
+  display: flex;
+
+}
+
+h4 {
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.p-d {
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+span{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.icon-content {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.p-d a {
+  color: white;
+}
+
+.p-d a:hover {
+  color: #1168FC;
+}
