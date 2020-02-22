@@ -52,20 +52,25 @@ html, body {
 
 // home page
 // header
+header {
+  background-color: black;
+}
 .name h1{
     font-size: 18px;
     line-height: 100px;
     height: 100px;
     margin: 0;
     text-align: right;
+    color: #7D07A5;
 }
 .row {
   justify-content: space-between;
 }
 .view_btn {
-  background-color: #202020;
+  background-color: black;
+  opacity: 0.9;
   // rgba(0,0,0,0.8)
-  border-color: #202020;
+  border-color: black;
   color: white !important;
   padding: 20px 40px;
   border-radius: 5px;
@@ -87,6 +92,7 @@ html, body {
   color: white;
   text-align: center;
   padding-top: 250px;
+  text-shadow: 2px 2px 4px #7D07A5;
 }
 
 .menu ul {
@@ -99,15 +105,19 @@ html, body {
   text-decoration: none;
   display: flex;
   padding: 20px;
+  color: white;
 }
 
 .menu a:hover {
-  color: black;
+  color: #7D07A5;
 }
 
 
 
 // footer
+footer {
+  background-color: black;
+}
 
 .github {
   background-image: url("/assets/gh.png");
@@ -135,4 +145,5 @@ html, body {
     font-size: 20px;
     padding-left: 46px;
     margin-bottom: 0px;
+    color: #1168FC;
 }

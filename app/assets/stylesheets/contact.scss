@@ -97,3 +97,49 @@ span{
 .p-d a:hover {
   color: #1168FC;
 }
+
+//alert
+.alert-warning {
+    color: white !important;
+    background-color: #1168FC!important;
+    border-color: transparent !important;
+}
+
+.alert {
+    position: fixed !important;
+    bottom: 16px !important;
+    right: 16px !important;
+    z-index: 1000 !important;
+}
+
+.m-1 {
+  margin: 0.25rem !important;
+}
+
+.alert-dismissible {
+  padding-right: 4rem !important;
+}
+
+.close span:hover {
+  color: #26272b;
+}
+
+.close span {
+  color: white;
+}
+
+
+
+#success-pop-up {
+  visibility: hidden;
+  -webkit-transition: opacity 2.0s ease-in;
+       -moz-transition: opacity 2.0s ease-in;
+         -o-transition: opacity 2.0s ease-in;
+                                  opacity: 1;
+}
+
+#error-pop-up {
+  visibility: hidden;
+}
+
+
