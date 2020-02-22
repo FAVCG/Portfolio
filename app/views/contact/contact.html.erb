@@ -5,19 +5,22 @@
   <h3>Contact Me</h3>
   <div class="two-sections">
 <div class="col-md-7">
+
+
 <form>
+
 <div class="form-body">
 <div class="form-group">
-    <label for="client-name"></label>
-    <input type="name" class="form-control" id="client-name" placeholder="Name">
+    <label for="inputName"></label>
+    <input type="text" class="form-control" id="inputName" placeholder="Name" required data-error-msg="Must enter name?">
   </div>
   <div class="form-group">
-    <label for="client-email"></label>
-    <input type="email" class="form-control" id="client-email" placeholder="Enter Email">
+    <label for="inputEmail"></label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" name="user[email]" required data-error-msg="Email required in valid format!">
   </div>
   <div class="form-group">
-    <label for="client-message"></label>
-    <textarea class="form-control" id="client-message" rows="4"placeholder="Message"></textarea>
+    <label for="inputMessage"></label>
+    <textarea class="form-control" id="inputMessage" rows="4"placeholder="Message"></textarea>
   </div>
   <div class="button-align">
     <div class="form-group">
@@ -27,6 +30,18 @@
 </div>
  </div>
 </form>
+    <div class="alert alert-warning alert-dismissible fade show m-1" id="success-pop-up" role="alert">
+        Your information has been sent.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show m-1" id="error-pop-up" role="alert">
+        ERROR! Not sent. Please try again.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
 
 
 
