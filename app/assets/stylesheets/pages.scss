@@ -4,7 +4,8 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: "Roboto";
+font-family: 'Open Sans', ;
+
 }
 
 //when you put the background-image in the body it will take full screen width
@@ -71,18 +72,15 @@ header {
   opacity: 0.9;
   // rgba(0,0,0,0.8)
   border-color: black;
-  color: white !important;
-  padding: 20px 40px;
-  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 9px;
   margin-left: 44%;
   margin-top: 20px;
 
 }
-.view_btn a {
-  color: #7D07A5;
-}
 
-.view_btn a:hover {
+.view_btn:hover {
   color: #1168FC;
   text-decoration: none;
 
@@ -90,9 +88,17 @@ header {
 // section
 .banner h2 {
   color: white;
+  padding-top: 210px;
+  text-shadow: 2px 2px 4px black;
   text-align: center;
-  padding-top: 250px;
-  text-shadow: 2px 2px 4px #7D07A5;
+  font-size: 35px;
+
+}
+
+.banner span{
+  font-size: 50px;
+  font-family: 'Julius Sans One', ;
+
 }
 
 .menu ul {

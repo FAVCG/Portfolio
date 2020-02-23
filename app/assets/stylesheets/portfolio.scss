@@ -2,20 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.banner2 {
-  background-image: url("/assets/laptop.jpeg");
-  background-repeat: no-repeat;
+.portfolio-background {
+  background-image: url("/assets/macbook.jpeg");
+  display: flex;
   background-size: cover;
-  min-height: 500px;
-  width: 100%;
 }
 
 .card {
   border: none;
+  background-color: black;
 
 }
 .card-img1{
-  background-image: url("/assets/shadowme.png");
+  background-image: url("/assets/port.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
@@ -31,6 +30,26 @@
   filter: grayscale(100%);
 
 }
+.card-img3 {
+  background-image: url("/assets/shadowme.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  filter: grayscale(100%);
+
+}
+
+.card-black {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    border-radius: 4px;
+    width: 100%;
+    margin: 50px 100px;
+    text-align: center;
+    height: 100%;
+}
 
 .card-img1:hover {
   filter: grayscale(0%);
@@ -38,17 +57,23 @@
 .card-img2:hover {
   filter: grayscale(0%);
 }
+.card-img3:hover {
+  filter: grayscale(0%);
+}
 
 .card-row {
-  padding-top: 50px;
+  justify-content: space-around;
+  margin: 50px 50px;
 }
 
 .card-content h2{
   font-size: 20px;
   color: #1168FC;
+  text-align: left;
 }
 
 .card-content p{
   max-height: 300px;
+  text-align: left;
   // color: #7D07A5;
 }
