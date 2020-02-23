@@ -3,6 +3,49 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .profile-img {
-  height: 400px;
+  height: 500px;
+  // margin-top: 100px;
+  // margin-left: 20px;
+  margin: 50px;
+  filter: grayscale(100%);
+}
 
+.profile-img:hover {
+  height: 500px;
+  // margin-top: 100px;
+  // margin-left: 20px;
+  margin: 50px;
+  filter: grayscale(0%);
+}
+
+
+.about_background {
+  background-image: url("https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?cs=srgb&dl=abstract-art-background-blue-370799.jpg&fm=jpg");
+  display: flex;
+}
+
+.about-content {
+  margin: 50px 50px;
+  text-align: start;
+}
+
+ .black-card {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    border-radius: 4px;
+    width: 100%;
+    margin: 50px 100px;
+    text-align: center;
+    height: 600px
+}
+
+
+.about-content h2 {
+ color: purple;
+ // font-family: 'Rock Salt', ;
+font-family: 'Julius Sans One', ;
+border-bottom: 1px solid white;
+text-align: center;
 }

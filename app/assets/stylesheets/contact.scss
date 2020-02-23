@@ -17,6 +17,7 @@ h3 {
   padding-top: 50px;
   font-size: 40px;
   padding-bottom: 50px;
+  font-family: 'Julius Sans One', ;
 }
 
 form {
@@ -62,6 +63,13 @@ form {
   color: white;
   border: 1px solid white !important;
 }
+.form-control:hover {
+  background-color: black !important;
+  color: white;
+  border: 1px solid white !important;
+}
+
+
 
 .two-sections {
   display: flex;
