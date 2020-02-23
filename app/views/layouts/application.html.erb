@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+</head>
 
-  <body>
-<!-- you put what will be displayed throughout all pages here -->
-<header>
+<body>
+    <!-- you put what will be displayed throughout all pages here -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <%= link_to "Welcome", root_path %>
+                        </li>
+                        <li><a href="portfolio">Portfolio</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="name">
+                    <h1>Faviola Caballero</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <%= yield %>
+    <footer>
+        <div class="container">
+            <ul class="social_links">
+                <li><a class="github" href="https://github.com/FABSTAR94" target="blank"></a></li>
+                <li><a class="linked_in" href="https://www.linkedin.com/in/fabstar94-faviola-18fcg79341/" target="blank"></a></li>
+            </ul>
+            <div class="p-text">
+                <p>© 2020 Faviola Caballero</p>
+            </div>
+        </div>
+    </footer>
+</body>
 
-  <div class="container">
-  <div class="row">
-  <div class="menu">
-  <ul>
-    <li><%= link_to "Welcome", root_path %></li>
-
-    <li><a href="portfolio">Portfolio</a></li>
-    <li><a href="about">About</a></li>
-     <li><a href="contact">Contact</a></li>
-  </ul>
-  </div>
-  <div class="name">
-    <h1>Faviola Caballero</h1>
-  </div>
-</div>
-</div>
-</header>
-<%= yield %>
-<footer>
-  <div class="container">
-    <ul class="social_links">
-      <li><a class="github" href="https://github.com/FABSTAR94" target="blank"></a></li>
-      <li><a class="linked_in" href="https://www.linkedin.com/in/fabstar94-faviola-18fcg79341/" target="blank"></a></li>
-    </ul>
-    <div class= "p-text">
-    <p>© 2020 Faviola Caballero</p>
-  </div>
-  </div>
-
-</footer>
-
-  </body>
 </html>
