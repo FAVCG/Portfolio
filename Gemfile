@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 gem 'pg', '~> 0.21'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+gem 'cloudinary'
 
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
