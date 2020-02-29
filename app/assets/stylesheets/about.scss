@@ -20,8 +20,10 @@
 
 
 .about_background {
-  background-image: url("https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?cs=srgb&dl=abstract-art-background-blue-370799.jpg&fm=jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582950111/Portfolio%20images/scenery_no2byy.jpg");
   display: flex;
+  background-size: cover;
+  background-position: center;
 }
 
 .about-content {

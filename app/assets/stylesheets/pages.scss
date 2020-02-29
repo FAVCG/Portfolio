@@ -10,7 +10,7 @@ font-family: 'Open Sans', ;
 
 //when you put the background-image in the body it will take full screen width
 .banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?cs=srgb&dl=office-working-app-computer-97077.jpg&fm=jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://res.cloudinary.com/dp85wftaz/image/upload/v1582940870/Portfolio%20images/code_zoom_qjaf5a.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 600px;
@@ -126,11 +126,11 @@ footer {
 }
 
 .github {
-  background-image: url("/assets/gh.png");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937441/Portfolio%20images/gh_ksvgnn.png");
 }
 
 .linked_in {
-  background-image: url("/assets/li.png");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937444/Portfolio%20images/li_e0z8qu.png");
 }
 
 .social_links li a {
