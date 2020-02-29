@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .portfolio-background {
-  background-image: url("/assets/macbook.jpeg");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937458/Portfolio%20images/macbook_yqghll.jpg");
   display: flex;
   background-size: cover;
 }
@@ -14,7 +14,7 @@
 
 }
 .card-img1{
-  background-image: url("/assets/port.png");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937512/Portfolio%20images/port_j6pcdo.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
@@ -23,7 +23,7 @@
 }
 
 .card-img2 {
-  background-image: url("/assets/newequityrealty.png");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937467/Portfolio%20images/newequityrealty_g0vtpc.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
@@ -31,7 +31,7 @@
 
 }
 .card-img3 {
-  background-image: url("/assets/shadowme.png");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937478/Portfolio%20images/shadowme_bfmbkw.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
