@@ -17,7 +17,8 @@ h3 {
   padding-top: 50px;
   font-size: 40px;
   padding-bottom: 50px;
-  font-family: 'Julius Sans One', ;
+   font-family: 'Orbitron', ;
+
 }
 
 form {
@@ -93,12 +94,18 @@ h4 {
   color: white;
   font-size: 18px;
   padding-top: 20px;
-}
 
+}
+ h4 span{
+  font-family: 'Orbitron', ;
+ }
 .p-d {
   color: white;
   font-size: 18px;
   padding-top: 20px;
+}
+.p-d span {
+font-family: 'Orbitron', ;
 }
 
 span{
@@ -117,6 +124,7 @@ span{
 
 .p-d a:hover {
   color: #1168FC;
+  text-decoration: none;
 }
 
 //alert
