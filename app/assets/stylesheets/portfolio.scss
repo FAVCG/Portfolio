@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .portfolio-background {
-  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937458/Portfolio%20images/macbook_yqghll.jpg");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1583016386/Portfolio%20images/bl_glaega.jpg");
   display: flex;
   background-size: cover;
 }
@@ -14,7 +14,7 @@
 
 }
 .card-img1{
-  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937512/Portfolio%20images/port_j6pcdo.png");
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1583017059/Portfolio%20images/fabtique_og2m4d.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
@@ -31,7 +31,16 @@
 
 }
 .card-img3 {
+
   background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937478/Portfolio%20images/shadowme_bfmbkw.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  filter: grayscale(100%);
+
+}
+.card-img4 {
+  background-image: url("https://res.cloudinary.com/dp85wftaz/image/upload/v1582937512/Portfolio%20images/port_j6pcdo.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
@@ -60,6 +69,10 @@
 .card-img3:hover {
   filter: grayscale(0%);
 }
+.card-img4:hover {
+  filter: grayscale(0%);
+}
+
 
 .card-row {
   justify-content: space-around;
@@ -68,8 +81,9 @@
 
 .card-content h2{
   font-size: 20px;
-  color: #1168FC;
+  color: #7D07A5;
   text-align: left;
+  font-weight: bold;
 }
 
 .card-content p{
