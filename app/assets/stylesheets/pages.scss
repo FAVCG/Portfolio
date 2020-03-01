@@ -4,8 +4,15 @@
 html, body {
   height: 100%;
   margin: 0;
-font-family: 'Open Sans', ;
+ font-family: 'Open Sans', ;
 
+}
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow: auto;
 }
 
 //when you put the background-image in the body it will take full screen width
