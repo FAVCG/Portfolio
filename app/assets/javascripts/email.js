@@ -19,10 +19,10 @@ function js_onSuccess() {
 function js_onError(error) {
     // remove this to avoid redirect
 
-    var successPopUp = document.getElementById('error-pop-up');
-    successPopUp.style["visibility"] = "visible";
+    var errorPopUp = document.getElementById('error-pop-up');
+    errorPopUp.style["visibility"] = "visible";
     setTimeout(() => {
-        successPopUp.style["visibility"] = "hidden";
+        errorPopUp.style["visibility"] = "hidden";
     }, 3000);
 }
 
